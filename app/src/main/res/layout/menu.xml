@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu">
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="VS Bot "
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="VS Player "
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="290dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
